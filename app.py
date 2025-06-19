@@ -8,3 +8,5 @@ import pandas as pd
 
 
 # Load Dataset
+def load_data():
+    df 
