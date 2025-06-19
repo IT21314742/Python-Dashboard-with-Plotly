@@ -10,3 +10,4 @@ import pandas as pd
 # Load Dataset
 def load_data():
     df = pd.read_csv('assets/healthcare.csv')
+    
