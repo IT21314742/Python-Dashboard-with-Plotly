@@ -20,3 +20,4 @@ data = load_data()
 #Create a web App
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 
+
