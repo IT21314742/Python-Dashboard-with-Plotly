@@ -22,7 +22,9 @@ app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 
 #App Layout And Design
 app.layout = dbc.Container([
-    
+    dbc.Row([
+        dbc.Col([html.H1("Healthcare Dashboard"), width=15])
+    ])
 ])
 
 
