@@ -10,5 +10,5 @@ import pandas as pd
 # Load Dataset
 def load_data():
     df = pd.read_csv('assets/healthcare.csv')
-    data["Billing Amount"] = pd.to_numeric()
+    data["Billing Amount"] = pd.to_numeric(data["Billing Amount"], errors="coerce")
     
