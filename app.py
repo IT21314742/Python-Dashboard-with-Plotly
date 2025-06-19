@@ -14,3 +14,4 @@ def load_data():
     data["Data of Admission"] = pd.to_datetime(data["data of Admission"])
     data["YearMonth"] = data["Data of Admission"].dt.to_period("M")
     return data
+
