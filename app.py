@@ -15,3 +15,4 @@ def load_data():
     data["YearMonth"] = data["Data of Admission"].dt.to_period("M")
     return data
 
+data = load_data()
