@@ -24,6 +24,5 @@ app.layout = dbc.Container([
         dbc.Col(html.H1("Healthcare Dashboard"), width=15, className="text-center my-5")
     ])
 ])
-
 if __name__ == "__main__":
     app.run_server(debug=True)
