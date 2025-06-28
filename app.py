@@ -35,7 +35,9 @@ app.layout = dbc.Container([
     ], className="mb-5"),
     
     dbc.Row([
-        
+        dbc.col([
+            
+        ])
     ])
 ])
 
