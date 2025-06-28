@@ -25,7 +25,9 @@ app.layout = dbc.Container([
     ])
     
     #Hospital Statistics
-    
+    dbc.row([
+        dbc.col(html.Div("Total Patient Records"))
+    ])
 ])
 
 
