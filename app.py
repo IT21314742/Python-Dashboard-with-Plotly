@@ -15,6 +15,8 @@ def load_data():
 
 data = load_data()
 
+num_records = len(data)
+avg_billing = data["Billing Amount"]
 
 
 # Create a web App
