@@ -23,6 +23,8 @@ app.layout = dbc.Container([
     dbc.Row([
         dbc.Col(html.H1("Healthcare Dashboard"), width=15, className="text-center my-5")
     ])
+    
+    #
 ])
 
 
