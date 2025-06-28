@@ -32,7 +32,7 @@ app.layout = dbc.Container([
     dbc.row([
         dbc.col(html.Div("Total Patient Records: {num_records}", className="text-center my-3 top-text"), width=7),
         dbc.col(html.Div(f" Average Billing Amount: {avg_billing}", className="text-center my-3 top-text"), width=7)
-    ])
+    ], className="")
 ])
 
 
