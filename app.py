@@ -42,7 +42,7 @@ app.layout = dbc.Container([
                     dcc.Dropdown(
                         id="gender-filter"
                     ),
-                    dcc.Graph(id="")
+                    dcc.Graph(id="age-distribution")
                 ])
         ])
         ])
