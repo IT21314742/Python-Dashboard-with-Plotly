@@ -9,8 +9,8 @@ import pandas as pd
 def load_data():
     data = pd.read_csv('assets/healthcare.csv')
     data["Billing Amount"] = pd.to_numeric(data["Billing Amount"], errors='coerce')
-    data["Date of Admission"] = pd.to_datetime(data["Date of Admission"])
-    data["YearMonth"] = data["Date of Admission"].dt.to_period("M")
+    data["Data of Admission"] = pd.to_datetime(data["Data of Admission"])
+    data["YearMonth"] = data["Data of Admission"].dt.to_period("M")
     return data
 
 data = load_data()
