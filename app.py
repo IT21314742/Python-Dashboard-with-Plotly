@@ -16,7 +16,7 @@ def load_data():
 data = load_data()
 
 num_records = len(data)
-avg_billing = data["Billing Amount"]
+avg_billing = data["Billing Amount"].mean()
 
 
 # Create a web App
@@ -30,7 +30,7 @@ app.layout = dbc.Container([
     
     #Hospital Statistics
     dbc.row([
-        dbc.col(html.Div("Total Patient Records"))
+        dbc.col(html.Div("Total Patient Records: {num_records}", className=))
     ])
 ])
 
