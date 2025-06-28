@@ -36,7 +36,11 @@ app.layout = dbc.Container([
     
     dbc.Row([
         dbc.col([
-            
+            dbc.Card(
+                dbc.CardBody[
+                    
+                ]
+            )
         ])
     ])
 ])
