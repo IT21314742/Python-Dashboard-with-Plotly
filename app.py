@@ -30,7 +30,7 @@ app.layout = dbc.Container([
     
     #Hospital Statistics
     dbc.row([
-        dbc.col(html.Div("Total Patient Records: {num_records}", className=))
+        dbc.col(html.Div("Total Patient Records: {num_records}", className="text-center my-3 top-text"))
     ])
 ])
 
