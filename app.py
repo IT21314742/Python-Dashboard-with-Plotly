@@ -39,7 +39,9 @@ app.layout = dbc.Container([
             dbc.Card([
                 dbc.CardBody([
                     html.H4("Patient Demographics", className="card-title")
-                    dcc.Dropdown()
+                    dcc.Dropdown(
+                        id="gender-filter"
+                    )
                 ])
         ])
         ])
